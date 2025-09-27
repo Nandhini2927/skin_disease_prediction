@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # -------------------- file paths --------------------
-MODEL_PATH = "my_model.pkl"
+MODEL_PATH = " my_model_compressed.pkl"
 CSV_PATH = "Skin_Disease_Dataset_Extended.csv"
 IMAGE_FOLDER = "image"
 
@@ -641,3 +641,4 @@ if st.session_state.show_buttons and st.session_state.confirmed_disease:
             st.info(UI_TEXT[language]["no_meds"])
 
     st.info(UI_TEXT[language]["final_info"])
+
